@@ -1,0 +1,7 @@
+datasets
+scikit-learn
+seaborn
+pandas
+numpy==1.24.1
+torch==2.1.2+cu121
+transformers==4.40.1

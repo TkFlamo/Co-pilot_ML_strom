@@ -1,0 +1,4 @@
+aiogram==3.5.0
+numpy==1.24.1
+torch==2.1.2+cu121
+transformers==4.40.1

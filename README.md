@@ -1,6 +1,22 @@
 # Co-pilot ML_strom
 ## Телеграмм-бот отвечающий на вопросы с помощью BERT
 ### Установка
+Сперва необходимо скачать веса обученной модели (https://drive.google.com/file/d/1nr9IFQDNCIPFuBQXZHUJOxkhDR73ZhbM/view?usp=sharing). Поместите папку fine-tune-bert в папку bot.
+Теперь все необходимое находится в папке bot, переходим туда и устанавливаем необходимые библиотеки
 ```
-pip install requirements.txt
+cd bot
+pip install -r requirements.txt
 ```
+### Применение
+Запускаем скрипт bot.py
+```
+python bot.py
+```
+Находим в telegram бота https://t.me/GGeekBot_bot
+Вопросы задаются с помощью /ask
+Пример:
+/ask Как дела?
+
+## Обучение BERT
+Так же в репозитории есть папка train с примером обучения модели.
+Необходимо аналогично установить необходимые библиотеки, и можно воспроизвести обучение в ноутбуке trainer.ipynb
